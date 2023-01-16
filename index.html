@@ -1,0 +1,1748 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>csesc-cou</title>
+  </head>
+  <body>
+    <nav class="navbar container fixed-top  navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><img  src="img/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#grdpoint"><i class="bi bi-bookmark-dash"></i>  Grade Point</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#impli"><i class="bi bi-hdd-rack"></i> Implementation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" data-toggle="modal" data-target="#about"><i class="bi bi-pencil-square"></i> About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br><br>
+    <div class="container main-container">
+        <div class="row">
+           <div class="col">
+              <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
+                <div class="row justify-content-end" data-wrap="false">
+                  
+                  <div class="col-4">
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <i class="bi bi-chevron-double-left"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <i class="bi bi-chevron-double-right"></i>
+                    </a>
+
+                  </div>
+                </div>
+                <br>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="sem-title">
+                      <h5>First Year First Semester</h5>
+                    </div>
+                    <br>
+                    <div class="table-responsive">
+                      <table class="table">
+                         <tbody>
+                          <tr class="headding-tr">
+                           <td>
+                               Course ID
+                           </td> 
+                           <td>
+                              Course Title
+                           </td> 
+                           <td>
+                              Credits
+                           </td> 
+                           <td>
+                              Your Grade Points
+                           </td> 
+                           
+                         </tr>
+                          <tr>
+                           <td>
+                              CSE-1101
+                           </td> 
+                           <td>
+                              Computer Systems &amp; Structured Programming
+                           </td> 
+                           <td id="a" class="fst1">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="a1" class="fstin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-1102
+                           </td> 
+                           <td>
+                              Computer Systems &amp; Structured Programming LAB
+                           </td> 
+                           <td id="b" class="fst1">
+                             1.5
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="b1" class="fstin1 allinputsoluation">
+                           </td> 
+                           
+                         </tr> 
+                         <tr>
+                           <td>
+                              CSE-1103
+                           </td> 
+                           <td>
+                              Discrite Mathematics
+                           </td>  
+                           <td id="c" class="fst1">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="c1" class="fstin1 allinputsoluation">
+                           </td> 
+                           
+                         </tr>
+                         <tr>
+                           <td>
+                              MATH-1104
+                           </td> 
+                           <td>
+                              Differentinal &amp; Integral Calculus
+                           </td> 
+                           <td id="d" class="fst1">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="d1" class="fstin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-1105
+                           </td> 
+                           <td>
+                             Electrical Circuits &amp; Devices
+                           </td> 
+                           <td id="e" class="fst1">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="e1" class="fstin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-1106
+                           </td> 
+                           <td>
+                             Electrical Circuits &amp; Devices LAB
+                           </td> 
+                           <td id="f" class="fst1">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="f1" class="fstin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              ENG-1107
+                           </td> 
+                           <td>
+                             Communicative English
+                           </td> 
+                           <td id="g" class="fst1">
+                             2
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="g1" class="fstin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         
+                         <tr>
+                           <td>
+                              ACCT-1108
+                           </td> 
+                           <td>
+                             Financial &amp; Managerial Accountting 
+                           </td> 
+                           <td id="h" class="fst1">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="h1" class="fstin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                            
+                           </td> 
+                           <td>
+                          <button type="button" id="fastresult" class="btn btn-primary">Get RESULT</button>
+                           </td> 
+                           <td class="tcradit">
+                            19.5
+                           </td> 
+                           <td>
+                             <p id="fstshow1"></p>
+                           </td> 
+                         </tr> 
+                      </tbody>
+                    </table>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="sem-title">
+                      <h5>First Year Second Semester</h5>
+                    </div>
+                    <br>
+                    <div class="table-responsive">
+                      <table class="table">
+                         <tbody><tr>
+                           <td>
+                               Course ID
+                           </td> 
+                           <td>
+                              Course Title
+                           </td> 
+                           <td>
+                              Credits
+                           </td> 
+                           <td>
+                              Your Grade Points
+                           </td> 
+                           
+                         </tr>
+                          <tr>
+                           <td>
+                              CSE-1201
+                           </td> 
+                           <td>
+                              Data Structure
+                              <br>
+                              <br>
+                              
+                           </td> 
+                           <td id="a12" class="fst2">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="a2" class="fstin2 allinputsoluation">
+                           </td> 
+                           
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-1202
+                           </td> 
+                           <td>
+                              Data Structure LAB
+                              
+                          
+                           </td> 
+                           <td id="b12" class="fst2">
+                             1.5
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="b2" class="fstin2 allinputsoluation">
+                           </td> 
+                           
+                         </tr> 
+                         <tr>
+                           <td>
+                              STAT-1203
+                           </td> 
+                           <td>
+                              Basic Statistics
+                              <br>
+                              
+                           </td> 
+                           <td id="c12" class="fst2">
+                             2
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="c2" class="fstin2 allinputsoluation">
+                           </td> 
+                           
+                         </tr>
+                         <tr>
+                           <td>
+                              PHY-1204
+                           </td> 
+                           <td>
+                              Physics
+                              
+                          
+                           </td> 
+                           <td id="d12" class="fst2">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="d2" class="fstin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              PHY-1205
+                           </td> 
+                           <td>
+                            Physics LAB
+                           </td> 
+                           <td id="e12" class="fst2">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="e2" class="fstin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-1206
+                           </td> 
+                           <td>
+                            Analog Electronics
+                           <br><br>
+                           </td> 
+                           <td id="f12" class="fst2">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="f2" class="fstin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-1207
+                           </td> 
+                           <td>
+                             Analog Electronics LAB
+                             <br>
+                              <br>
+                           </td> 
+                           <td id="g12" class="fst2">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="g2" class="fstin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         
+                         <tr>
+                           <td>
+                              MATH-1208
+                           </td> 
+                           <td>
+                             Differentinal Equations And Matrices
+                           </td> 
+                           <td id="h12" class="fst2">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="h2" class="fstin2 allinputsoluation">
+                           </td> 
+                         </tr> 
+                         <tr>
+                           <td>
+                             
+                           </td> 
+                           <td>
+                            Viva-Voice
+                           </td> 
+                           <td id="i12" class="fst2">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="i2" class="fstin2 allinputsoluation">
+                           </td> 
+                         </tr> 
+                         <tr>
+                           <td>
+                            
+                           </td> 
+                           <td>
+                          <button type="button" id="fastresult2" class="btn btn-primary">Get RESULT</button>
+                           </td> 
+                           <td class="tcradit2">
+                            18.5
+                           </td> 
+                           <td>
+                          <p id="fstshow2">  </p>
+                           </td> 
+                         </tr>
+                         
+                      </tbody></table>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="sem-title">
+                      <h5>Second Year First Semester</h5>
+                    </div>
+                    <br>
+                    <div class="table-responsive">
+                      <table class="table">
+                         <tbody><tr>
+                           <td>
+                               Course ID
+                           </td> 
+                           <td>
+                              Course Title
+                           </td> 
+                           <td>
+                              Credits
+                           </td> 
+                           <td>
+                              Your Grade Points
+                           </td> 
+                           
+                         </tr>
+                          <tr>
+                           <td>
+                              CSE-2101
+                           </td> 
+                           <td>
+                              Object-Oriented Programming
+                           </td> 
+                           <td id="a21" class="sec1">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="a221" class="secin1 allinputsoluation">
+                           </td> 
+                           
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-2102
+                           </td> 
+                           <td>
+                              Object-Oriented Programming LAB
+                           </td> 
+                           <td id="b21" class="sec1">
+                             1.5
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="b221" class="secin1 allinputsoluation">
+                           </td> 
+                           
+                         </tr> 
+                         <tr>
+                           <td>
+                              CSE-2103
+                           </td> 
+                           <td>
+                              Dgital Logic Design
+                           </td> 
+                           <td id="c21" class="sec1">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="c221" class="secin1 allinputsoluation">
+                           </td> 
+                           
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-2104
+                           </td> 
+                           <td>
+                              Dgital Logic Design LAB
+                           </td> 
+                           <td id="d21" class="sec1">
+                             1.5
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="d221" class="secin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              MATH-2105
+                           </td> 
+                           <td>
+                            Algebra,Trigonometry And Vector Analysis
+                           </td> 
+                           <td id="e21" class="sec1">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="e221" class="secin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-2106
+                           </td> 
+                           <td>
+                             Numerical Methods
+                           </td> 
+                           <td id="f21" class="sec1">
+                             2
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="f221" class="secin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-2107
+                           </td> 
+                           <td>
+                               Numerical Methods LAB
+                           </td> 
+                           <td id="g21" class="sec1">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="g221" class="secin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         
+                         <tr>
+                           <td>
+                              MGT-2108
+                           </td> 
+                           <td>
+                              Industrial Management
+                           </td> 
+                           <td id="h21" class="sec1">
+                             2
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="h221" class="secin1 allinputsoluation">
+                           </td> 
+                         </tr> 
+                         <tr>
+                           <td>
+                              CSE-2109
+                           </td> 
+                           <td>
+                             Engineering Statistics
+                           </td> 
+                           <td id="i21" class="sec1">
+                             2
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="i221" class="secin1 allinputsoluation">
+                           </td> 
+                         </tr> 
+                         <tr>
+                           <td>
+                              CSE-2110
+                           </td> 
+                           <td>
+                             Engineering Drawing LAB
+                           </td> 
+                           <td id="j21" class="sec1">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="j221" class="secin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                            
+                           </td> 
+                           <td>
+                          <button type="button" id="secresult1" class="btn btn-primary">Get RESULT</button>
+                           </td> 
+                           <td class="tcredites1">
+                            20
+                           </td> 
+                           <td>
+                             <p id="secshow1">  </p>
+                           </td> 
+                         </tr>
+                         
+                      </tbody></table>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="sem-title">
+                      <h5>Second Year Second Semester</h5>
+                    </div>
+                    <br>
+                    <div class="table-responsive">
+                      <table class="table">
+                         <tbody><tr>
+                           <td>
+                               Course ID
+                           </td> 
+                           <td>
+                              Course Title
+                           </td> 
+                           <td>
+                              Credits
+                           </td> 
+                           <td>
+                              Your Grade Points
+                           </td> 
+                           
+                         </tr>
+                          <tr>
+                           <td>
+                              CSE-2201
+                           </td> 
+                           <td>
+                              Algorithm Analysis And Design 
+                           </td> 
+                           <td id="a22" class="sec2">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="a222"  class="secin2 allinputsoluation">
+                           </td> 
+                           
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-2202
+                           </td> 
+                           <td>
+                               Algorithm Analysis And Design LAB
+                           </td> 
+                           <td id="b22"  class="sec2">
+                             1.5
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="b222"  class="secin2 allinputsoluation">
+                           </td> 
+                           
+                         </tr> 
+                         <tr>
+                           <td>
+                              CSE-2203
+                           </td> 
+                           <td>
+                            System Analysis And Design
+                           </td> 
+                           <td id="c22"  class="sec2">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="c222"  class="secin2 allinputsoluation">
+                           </td> 
+                           
+                         </tr>
+                         <tr>
+                           <td>
+                              BDS-2204
+                           </td> 
+                           <td>
+                           Bangladesh Studies 
+                           </td> 
+                           <td id="d22"  class="sec2">
+                             2
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="d222"  class="secin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-2205
+                           </td> 
+                           <td>
+                            Computer Variable And Geometry
+                           </td> 
+                           <td id="e22"  class="sec2">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="e222"  class="secin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-2206
+                           </td> 
+                           <td>
+                            Computer Archiecture And Organization 
+                           </td> 
+                           <td id="f22"  class="sec2">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="f222"  class="secin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-2207
+                           </td> 
+                           <td>
+                             Concrete Mathematics 
+                           </td> 
+                           <td id="g22"  class="sec2">
+                             2
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="g222"  class="secin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         
+                         <tr>
+                           <td>
+                              CSE-2208
+                           </td> 
+                           <td>
+                              Java Technologies
+                           </td> 
+                           <td id="h22"  class="sec2">
+                             2
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="h222"  class="secin2 allinputsoluation">
+                           </td> 
+                         </tr> 
+                         <tr>
+                           <td>
+                              CSE-2209
+                           </td> 
+                           <td>
+                            Java Technologies LAB
+                           </td> 
+                           <td id="i22"  class="sec2">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="i222"  class="secin2 allinputsoluation">
+                           </td> 
+                         </tr> 
+                         <tr>
+                           <td>
+                              
+                           </td> 
+                           <td>
+                             Viva-Voice
+                           </td> 
+                           <td id="j22"  class="sec2">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="j222"  class="secin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                            
+                           </td> 
+                           <td>
+                          <button type="button" id="secresult2" class="btn btn-primary">Get RESULT</button>
+                           </td> 
+                           <td class="tcredites2">
+                            21.5
+                           </td> 
+                           <td>
+                             <p id="secshow2">  </p>
+                           </td> 
+                         </tr>
+                         
+                      </tbody></table>
+                    
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="sem-title">
+                      <h5>Third Year First Semester</h5>
+                    </div>
+                    <br>
+                    <div class="table-responsive">
+                      <table class="table">
+                         <tbody><tr>
+                           <td>
+                               Course ID
+                           </td> 
+                           <td>
+                              Course Title
+                           </td> 
+                           <td>
+                              Credits
+                           </td> 
+                           <td>
+                              Your Grade Points
+                           </td> 
+                           
+                         </tr>
+                          <tr>
+                           <td>
+                              CSE-3101
+                           </td> 
+                           <td>
+                              Theory Of Computation
+                           </td> 
+                           <td id="a31" class="trd1">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="a311" class="trdin1 allinputsoluation">
+                           </td> 
+                           
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-3102
+                           </td> 
+                           <td>
+                              Database Management System
+                           </td> 
+                           <td id="b31" class="trd1">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="b311"  class="trdin1 allinputsoluation">
+                           </td> 
+                           
+                         </tr> 
+                         <tr>
+                           <td>
+                              CSE-3103
+                           </td> 
+                           <td>
+                             Database Management System LAB
+                           </td> 
+                           <td id="c31" class="trd1">
+                             1.5
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="c311"  class="trdin1 allinputsoluation">
+                           </td> 
+                           
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-3104
+                           </td> 
+                           <td>
+                              Economics
+                           </td> 
+                           <td id="d31" class="trd1">
+                             2
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="d311"  class="trdin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-3105
+                           </td> 
+                           <td>
+                            Software Development LAB-1
+                           </td> 
+                           <td id="e31" class="trd1">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="e311"  class="trdin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-3106
+                           </td> 
+                           <td>
+                             Communication Engineering
+                           </td> 
+                           <td id="f31" class="trd1">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="f311"  class="trdin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-3107
+                           </td> 
+                           <td>
+                            Communication Engineering LAB
+                           </td> 
+                           <td id="g31" class="trd1">
+                             1.5
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="g311"  class="trdin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         
+                         <tr>
+                           <td>
+                              CSE-3108
+                           </td> 
+                           <td>
+                             Microprocessor
+                           </td> 
+                           <td id="h31" class="trd1">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="h311"  class="trdin1 allinputsoluation">
+                           </td> 
+                         </tr> 
+                         <tr>
+                           <td>
+                              CSE-3109
+                           </td> 
+                           <td>
+                            Assembly Language LAB
+                           </td> 
+                           <td id="i31" class="trd1">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="i311"  class="trdin1 allinputsoluation">
+                           </td> 
+                         </tr> 
+                         
+                         <tr>
+                           <td>
+                            
+                           </td> 
+                           <td>
+                          <button type="button" id="trdresult1" class="btn btn-primary">Get RESULT</button>
+                           </td> 
+                           <td class="tcredittrd1">
+                            19
+                           </td> 
+                           <td>
+                             <p id="trdshow1">  </p>
+                           </td> 
+                         </tr>
+                         
+                      </tbody></table>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="sem-title">
+                      <h5>Third Year Second Semester</h5>
+                    </div>
+                    <br>
+                    <div class="table-responsive">
+                      <table class="table">
+                         <tbody><tr>
+                           <td>
+                               Course ID
+                           </td> 
+                           <td>
+                              Course Title
+                           </td> 
+                           <td>
+                              Credits
+                           </td> 
+                           <td>
+                              Your Grade Points
+                           </td> 
+                           
+                         </tr>
+                          <tr>
+                           <td>
+                              CSE-3201
+                           </td> 
+                           <td>
+                             Simulation And Modeling
+                           </td> 
+                           <td id="a32" class="trd2">
+                             2
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="a321" class="trdin2 allinputsoluation">
+                           </td> 
+                           
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-3202
+                           </td> 
+                           <td>
+                              Computer Peripherals And Interfacing
+                           </td> 
+                           <td id="b32" class="trd2">
+                             2
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="b321" class="trdin2 allinputsoluation">
+                           </td> 
+                           
+                         </tr> 
+                         <tr>
+                           <td>
+                              CSE-3203
+                           </td> 
+                           <td>
+                           Interfacing And Mirocontroller LAB
+                           </td> 
+                           <td id="c32" class="trd2">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="c321" class="trdin2 allinputsoluation">
+                           </td> 
+                           
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-3204
+                           </td> 
+                           <td>
+                          Software Engineering
+                           </td> 
+                           <td id="d32" class="trd2">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="d321" class="trdin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-3205
+                           </td> 
+                           <td>
+                            E-Commerce
+                           </td> 
+                           <td id="e32" class="trd2">
+                             2
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="e321" class="trdin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-3206
+                           </td> 
+                           <td>
+                            Operating Systems And System Programming
+                           </td> 
+                           <td id="f32" class="trd2">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="f321" class="trdin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-3207
+                           </td> 
+                           <td>
+                            Operating Systems And System Programming LAB
+                           </td> 
+                           <td id="g32" class="trd2">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="g321" class="trdin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         
+                         <tr>
+                           <td>
+                              CSE-3208
+                           </td> 
+                           <td>
+                            Software Development LAB-2
+                           </td> 
+                           <td id="h32" class="trd2">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="h321" class="trdin2 allinputsoluation">
+                           </td> 
+                         </tr> 
+                         <tr>
+                           <td>
+                              CSE-3209
+                           </td> 
+                           <td>
+                            Computer Networks
+                           </td> 
+                           <td id="i32" class="trd2">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="i321" class="trdin2 allinputsoluation">
+                           </td> 
+                         </tr> 
+                         <tr>
+                           <td>
+                              CSE-3210
+                           </td> 
+                           <td>
+                            Computer Networks LAB
+                           </td> 
+                           <td id="j32" class="trd2">
+                             1.5
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="j321" class="trdin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              
+                           </td> 
+                           <td>
+                             Viva-Voice
+                           </td> 
+                           <td id="k32" class="trd2">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="k321" class="trdin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                            
+                           </td> 
+                           <td>
+                          <button type="button" id="trdresult2" class="btn btn-primary">Get RESULT</button>
+                           </td> 
+                           <td class="tcredittrd2">
+                            20.5
+                           </td> 
+                           <td>
+                             <p id="trdshow2">  </p>
+                           </td> 
+                         </tr>  
+                      </tbody></table>
+                    
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="sem-title">
+                      <h5>Fourth Year First Semester</h5>
+                    </div>
+                    <br>
+                    <div class="table-responsive">
+                      <table class="table">
+                         <tbody><tr>
+                           <td>
+                               Course ID
+                           </td> 
+                           <td>
+                              Course Title
+                           </td> 
+                           <td>
+                              Credits
+                           </td> 
+                           <td>
+                              Your Grade Points
+                           </td> 
+                           
+                         </tr>
+                          <tr>
+                           <td>
+                              CSE-4101
+                           </td> 
+                           <td>
+                             Artificial Intelligence
+                           </td> 
+                           <td id="a41" class="fo1">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="a411" class="foin1 allinputsoluation">
+                           </td> 
+                           
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-4102
+                           </td> 
+                           <td>
+                              Artificial Intelligence LAB
+                           </td> 
+                           <td id="b41" class="fo1">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="b411" class="foin1 allinputsoluation">
+                           </td> 
+                           
+                         </tr> 
+                         <tr>
+                           <td>
+                              CSE-4103
+                           </td> 
+                           <td>
+                            Compiler Design
+                           </td> 
+                           <td id="c41" class="fo1">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="c411" class="foin1 allinputsoluation">
+                           </td> 
+                           
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-4104
+                           </td> 
+                           <td>
+                            Compiler Design LAB
+                           </td> 
+                           <td id="d41" class="fo1">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="d411" class="foin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-4105
+                           </td> 
+                           <td>
+                            Digital Signal Processing
+                           </td> 
+                           <td id="e41" class="fo1">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="e411" class="foin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-4106
+                           </td> 
+                           <td>
+         Digital Signal Processing LAB
+                           </td> 
+                           <td id="f41" class="fo1">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="f411" class="foin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-4107
+                           </td> 
+                           <td>
+                            Computer Graphics
+                           </td> 
+                           <td id="g41" class="fo1">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="g411" class="foin1 allinputsoluation">
+                           </td> 
+                         </tr>
+                         
+                         <tr>
+                           <td>
+                              CSE-4108
+                           </td> 
+                           <td>
+                              Computer Graphics LAB
+                           </td> 
+                           <td id="h41" class="fo1">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="h411" class="foin1 allinputsoluation">
+                           </td> 
+                         </tr> 
+                         <tr>
+                           <td>
+                              CSE-4109
+                           </td> 
+                           <td>
+                            Web Engineering
+                           </td> 
+                           <td id="i41" class="fo1">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="i411" class="foin1 allinputsoluation">
+                           </td> 
+                         </tr> 
+                          <tr>
+                           <td>
+                              CSE-4110
+                           </td> 
+                           <td>
+                            Web Engineering LAB
+                           </td> 
+                           <td id="j41" class="fo1">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="j411" class="foin1 allinputsoluation">
+                           </td> 
+                         </tr> 
+                          <tr>
+                           <td>
+                              CSE-4111
+                           </td> 
+                           <td>
+                          Research Project(Part-1)
+                           </td> 
+                           <td id="k41" class="fo1">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="k411" class="foin1 allinputsoluation">
+                           </td> 
+                         </tr> 
+                         
+                         <tr>
+                           <td>
+                            
+                           </td> 
+                           <td>
+                          <button type="button" id='foresult1' class="btn btn-primary">Get RESULT</button>
+                           </td> 
+                           <td class="tcreditfo1">
+                            21
+                           </td> 
+                           <td>
+                             <p id="foshow1">  </p>
+                           </td> 
+                         </tr>
+                         
+                      </tbody></table>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="sem-title">
+                      <h5>Fourth Year Second Semester</h5>
+                    </div>
+                    <br>
+                    <div class="table-responsive">
+                      <table class="table">
+                         <tbody><tr>
+                           <td>
+                               Course ID
+                           </td> 
+                           <td>
+                              Course Title
+                           </td> 
+                           <td>
+                              Credits
+                           </td> 
+                           <td>
+                              Your Grade Points
+                           </td> 
+                           
+                         </tr>
+                          <tr>
+                           <td>
+                              CSE-4201
+                           </td> 
+                           <td>
+                            Digital Image Processing
+                           </td> 
+                           <td id="a42" class="fo2">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="a421"  class="foin2 allinputsoluation">
+                           </td> 
+                           
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-4202
+                           </td> 
+                           <td>
+                              Digital Image Processing LAB
+                           </td> 
+                           <td id="b42" class="fo2">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="b421"  class="foin2 allinputsoluation">
+                           </td> 
+                           
+                         </tr> 
+                         <tr>
+                           <td>
+                              CSE-4203
+                           </td> 
+                           <td>
+              Pattern Recognition And Neural Networks
+                           </td> 
+                           <td id="c42" class="fo2">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="c421"  class="foin2 allinputsoluation">
+                           </td> 
+                           
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-4204
+                           </td> 
+                           <td>
+                          Pattern Recognition And Neural Networks LAB
+                           </td> 
+                           <td id="d42" class="fo2">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="d421"  class="foin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-4205
+                           </td> 
+                           <td>
+                            Parallel Distributed System
+                           </td> 
+                           <td id="e42" class="fo2">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="e421"  class="foin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-4206
+                           </td> 
+                           
+                           <td>
+                            Parallel Distributed System LAB
+                           </td> 
+                           <td id="f42" class="fo2">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="f421"  class="foin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         <tr>
+                           <td>
+                              CSE-4207
+                           </td> 
+                           <td>
+                            Network Security
+                           </td> 
+                           <td id="g42" class="fo2">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="g421"  class="foin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                         
+                         <tr>
+                           <td>
+                              CSE-4208
+                           </td> 
+                           <td>
+                            Network Security LAB
+                           </td> 
+                           <td id="h42" class="fo2">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="h421"  class="foin2 allinputsoluation">
+                           </td> 
+                         </tr> 
+                         <tr>
+                           <td>
+                              CSE-4209
+                           </td> 
+                           <td>
+                           Research Project(Part-2)
+                           </td> 
+                           <td id="i42" class="fo2">
+                             3
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="i421"  class="foin2 allinputsoluation">
+                           </td> 
+                         </tr> 
+                         <tr>
+                           <td>
+                             
+                           </td> 
+                           <td>
+                             Viva-Voice
+                           </td> 
+                           <td id="j42" class="fo2">
+                             1
+                           </td> 
+                           <td>
+                              <input maxlength="2" type="text" id="j421"  class="foin2 allinputsoluation">
+                           </td> 
+                         </tr>
+                        
+                         <tr>
+                           <td>
+                            
+                           </td> 
+                           <td>
+                          <button type="button" id="foresult2" class="btn btn-primary">Get RESULT</button>
+                           </td> 
+                           <td class="tcreditfo2">
+                            20
+                           </td> 
+                           <td>
+                             <p id="foshow2">  </p>
+                           </td> 
+                         </tr>
+                         
+                      </tbody></table>
+                    
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+           </div>
+        </div>
+        <br>
+        <div class="row final-cgpa">
+          <div class="col-md-6 offset-md-3">
+            <center>
+              <h2>Final CGPA Result</h2>
+              <hr>
+              <button  type="button"  class="btn btn-primary" id="fainalresult">
+                  Get Your Merit
+              </button>
+              <br> 
+              <p id="cgpa_score" class="cgpa-score"></p>
+            </center>
+          </div>
+        </div>
+        <br><br>
+    </div>
+    <br>
+    <div class="modal fade" id="grdpoint" tabindex="-1" role="dialog" aria-labelledby="grdpoint" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"  style="color: rgb(70, 41, 236);"><i class="bi bi-bookmark-dash"></i> Grade Details</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body d-grade">
+              <div class="row">
+                 <div class="col">
+                     <p>Letter Grade</p>
+                 </div>
+                 <div class="col">
+                     <p>Percentage Grade</p>
+                 </div>
+                 <div class="col">
+                     <p>Point Grade</p>
+                 </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <p>A+</p>
+                </div>
+                <div class="col">
+                    <p>100%-80%</p>
+                </div>
+                <div class="col">
+                    <p>4.00</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <p>A</p>
+                </div>
+                <div class="col">
+                    <p>79%-75%</p>
+                </div>
+                <div class="col">
+                    <p>3.75</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <p>A-</p>
+                </div>
+                <div class="col">
+                    <p>74%-70%</p>
+                </div>
+                <div class="col">
+                    <p>3.50</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <p>B+</p>
+                </div>
+                <div class="col">
+                    <p>69%-65%</p>
+                </div>
+                <div class="col">
+                    <p>3.25</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <p>B</p>
+                </div>
+                <div class="col">
+                    <p>64%-60%</p>
+                </div>
+                <div class="col">
+                    <p>3.00</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <p>B-</p>
+                </div>
+                <div class="col">
+                    <p>59%-55%</p>
+                </div>
+                <div class="col">
+                    <p>2.75</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <p>C+</p>
+                </div>
+                <div class="col">
+                    <p>54%-50%</p>
+                </div>
+                <div class="col">
+                    <p>2.50</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <p>C</p>
+                </div>
+                <div class="col">
+                    <p>49%-45%</p>
+                </div>
+                <div class="col">
+                    <p>2.25</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <p>D</p>
+                </div>
+                <div class="col">
+                    <p>44%-40%</p>
+                </div>
+                <div class="col">
+                    <p>2.00</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <p>F</p>
+                </div>
+                <div class="col">
+                    <p>40%-0%</p>
+                </div>
+                <div class="col">
+                    <p>Fail</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="impli" tabindex="-1" role="dialog" aria-labelledby="impli" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"  style="color: rgb(70, 41, 236);"><i class="bi bi-hdd-rack"></i> Implementation Process</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+               <div class="col">
+                    <p>Please Enter Your Grade Points in Input Field
+                      <br> For Exmple:A+,A,A-,B+,B-,B,C+,C,D,F 
+                      <br>And Calculated The Hole Semester GPA
+                      <br> Then You Are Get The CGPA</p>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="f_1" tabindex="-1" role="dialog" aria-labelledby="f_1" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel" style="color: rgb(193, 3, 3);">! Alert</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+           <h6 id="modalcontenshow"></h6>
+            <p>See the Implementation </p>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="about" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel" style="color: rgb(70, 41, 236);"><i class="bi bi-pencil-square"></i> About Our University</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            
+<iframe src="https://cou.ac.bd/" height="400px" width="100%" title="Iframe Example"></iframe>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+    <div class="js-container container-con" style="top:0px !important;" id="congratstem">
+       <div class="conapps">
+        <p class="sentence">Congratulations</p>
+        <h2 class="sentence">You Got </h2>
+        <h3 class="sentence" id="enterfainal"></h3>
+        <img class="rose" src="img/rose.gif">
+       </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script src="js/cscse.js"></script>
+  </body>
+</html>
